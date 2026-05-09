@@ -8,7 +8,7 @@ class Solution {
             char ch = s.charAt(right);
             freq[ch]++;
             while(freq[ch] > 1){
-                freq[s.charAt(left)]--;
+                freq[s.charAt(left)]--;                
                 left++;
             }
             int len = right -left + 1;
